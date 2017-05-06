@@ -26,7 +26,7 @@ body {
 }
 
 /* Make the masthead heading the same height as the navigation */
-.header h3 {
+.h3 {
   margin-top: 0;
   margin-bottom: 0;
   line-height: 3rem;
@@ -51,20 +51,22 @@ body {
 
 /* Main marketing message and sign up button */
 .jumbotron {
-  text-align: center;
+  text-align: left;
   border-bottom: .05rem solid #e5e5e5;
 }
-.jumbotron .btn {
-  padding: .75rem 1.5rem;
-  font-size: 1.5rem;
-}
+
+ .profpic {
+   width: 40%;
+   height: auto;
+   }
 
 /* Supporting marketing content */
 .marketing {
   margin: 3rem 0;
 }
-.marketing p + h4 {
+.h4 {
   margin-top: 1.5rem;
+  text-align: center;
 }
 
 /* Responsive: Portrait tablets and up */
